@@ -1,5 +1,4 @@
 use chrono::prelude::{SecondsFormat, Utc};
-use log;
 use std::fmt;
 
 pub struct DatadogLog<L: log::Log> {
